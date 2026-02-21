@@ -1,0 +1,15 @@
+{
+  "name": "yt-downloader",
+  "version": "1.0.0",
+  "description": "YouTube MP3 MP4 Downloader",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ytdl-core": "^4.11.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0"
+  }
+}
